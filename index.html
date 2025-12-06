@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +13,20 @@
             --r-heading-color: #58a6ff;
             --r-link-color: #58a6ff;
         }
+
         .reveal .slides section .email {
             font-size: 0.6em;
             color: #8b949e;
             margin-top: 2em;
         }
+
         .reveal .slides section .highlight-box {
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
             border-radius: 10px;
             padding: 20px;
             border-left: 4px solid #58a6ff;
         }
+
         .reveal .slides section .metric {
             display: inline-block;
             margin: 10px;
@@ -31,19 +35,28 @@
             border-radius: 8px;
             min-width: 150px;
         }
+
         .reveal .slides section .metric-value {
             font-size: 2em;
             font-weight: bold;
             color: #58a6ff;
         }
+
         .reveal .slides section .metric-label {
             font-size: 0.8em;
             color: #8b949e;
         }
-        .positive { color: #3fb950 !important; }
-        .negative { color: #f85149 !important; }
+
+        .positive {
+            color: #3fb950 !important;
+        }
+
+        .negative {
+            color: #f85149 !important;
+        }
     </style>
 </head>
+
 <body>
     <div class="reveal">
         <div class="slides">
@@ -52,7 +65,9 @@
                 <h1>Q4 2024</h1>
                 <h2>Quarterly Earnings Report</h2>
                 <p>Financial Performance Overview</p>
-                <p class="email">Prepared by: 22f3000804@ds.study.iitm.ac.in</p>
+                <p style="margin-top: 1.5em; font-size: 1em; color: #58a6ff;">
+                    <strong>Author:</strong> 22f3000804@ds.study.iitm.ac.in
+                </p>
                 <aside class="notes">
                     Welcome everyone to the Q4 2024 quarterly earnings presentation.
                     This report covers our financial performance, key metrics, and future outlook.
@@ -162,10 +177,11 @@ print(f"CAGR: {compound_annual_growth_rate(1.2, 1.8, 1):.2f}%")
                 <div class="highlight-box">
                     <p><strong>Compound Interest:</strong></p>
                     <p>\[ A = P \left(1 + \frac{r}{n}\right)^{nt} \]</p>
-                    
+
                     <p class="fragment"><strong>Return on Investment (ROI):</strong></p>
-                    <p class="fragment">\[ ROI = \frac{(Final Value - Initial Investment)}{Initial Investment} \times 100\% \]</p>
-                    
+                    <p class="fragment">\[ ROI = \frac{(Final Value - Initial Investment)}{Initial Investment} \times
+                        100\% \]</p>
+
                     <p class="fragment"><strong>Compound Annual Growth Rate (CAGR):</strong></p>
                     <p class="fragment">\[ CAGR = \left(\frac{V_{final}}{V_{initial}}\right)^{\frac{1}{n}} - 1 \]</p>
                 </div>
@@ -181,10 +197,12 @@ print(f"CAGR: {compound_annual_growth_rate(1.2, 1.8, 1):.2f}%")
                 <h2>Q4 Valuation Metrics</h2>
                 <div class="highlight-box">
                     <p><strong>Price-to-Earnings Ratio:</strong></p>
-                    <p>\[ P/E = \frac{Market\ Price\ per\ Share}{Earnings\ per\ Share} = \frac{\$142.50}{\$8.25} = 17.27 \]</p>
-                    
+                    <p>\[ P/E = \frac{Market\ Price\ per\ Share}{Earnings\ per\ Share} = \frac{\$142.50}{\$8.25} = 17.27
+                        \]</p>
+
                     <p class="fragment"><strong>Dividend Yield:</strong></p>
-                    <p class="fragment">\[ Yield = \frac{Annual\ Dividends}{Stock\ Price} = \frac{\$3.20}{\$142.50} = 2.25\% \]</p>
+                    <p class="fragment">\[ Yield = \frac{Annual\ Dividends}{Stock\ Price} = \frac{\$3.20}{\$142.50} =
+                        2.25\% \]</p>
                 </div>
                 <aside class="notes">
                     Our P/E ratio of 17.27 indicates healthy valuation.
@@ -220,7 +238,7 @@ print(f"CAGR: {compound_annual_growth_rate(1.2, 1.8, 1):.2f}%")
     <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/highlight/highlight.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/math/math.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/notes/notes.min.js"></script>
-    
+
     <script>
         Reveal.initialize({
             hash: true,
@@ -239,4 +257,5 @@ print(f"CAGR: {compound_annual_growth_rate(1.2, 1.8, 1):.2f}%")
         });
     </script>
 </body>
+
 </html>

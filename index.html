@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 2024 Quarterly Earnings Report</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/night.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/highlight/monokai.min.css">
+    <style>
+        :root {
+            --r-heading-color: #58a6ff;
+            --r-link-color: #58a6ff;
+        }
+        .reveal .slides section .email {
+            font-size: 0.6em;
+            color: #8b949e;
+            margin-top: 2em;
+        }
+        .reveal .slides section .highlight-box {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border-radius: 10px;
+            padding: 20px;
+            border-left: 4px solid #58a6ff;
+        }
+        .reveal .slides section .metric {
+            display: inline-block;
+            margin: 10px;
+            padding: 20px;
+            background: rgba(88, 166, 255, 0.1);
+            border-radius: 8px;
+            min-width: 150px;
+        }
+        .reveal .slides section .metric-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #58a6ff;
+        }
+        .reveal .slides section .metric-label {
+            font-size: 0.8em;
+            color: #8b949e;
+        }
+        .positive { color: #3fb950 !important; }
+        .negative { color: #f85149 !important; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Title Slide -->
+            <section>
+                <h1>Q4 2024</h1>
+                <h2>Quarterly Earnings Report</h2>
+                <p>Financial Performance Overview</p>
+                <p class="email">Prepared by: 22f3000804@ds.study.iitm.ac.in</p>
+                <aside class="notes">
+                    Welcome everyone to the Q4 2024 quarterly earnings presentation.
+                    This report covers our financial performance, key metrics, and future outlook.
+                    Press 'S' to see these speaker notes in presenter mode.
+                </aside>
+            </section>
+
+            <!-- Markdown Slide - Key Highlights -->
+            <section data-markdown>
+                <textarea data-template>
+## Key Highlights
+
+- **Revenue Growth**: 23% YoY increase
+- **Net Profit Margin**: Improved to 18.5%
+- **Customer Base**: Expanded to 2.4M active users
+- **Market Share**: Gained 3.2% in core markets
+
+---
+
+> "Our strongest quarter in company history"
+> — CEO Statement
+
+Note: This slide demonstrates markdown support. Emphasize the record-breaking performance and customer growth metrics.
+                </textarea>
+            </section>
+
+            <!-- Fragment Animation Slide -->
+            <section>
+                <h2>Revenue Breakdown</h2>
+                <div class="r-stack">
+                    <div class="fragment fade-in-then-out">
+                        <div class="metric">
+                            <div class="metric-value">$4.2B</div>
+                            <div class="metric-label">Total Revenue</div>
+                        </div>
+                    </div>
+                    <div class="fragment fade-in-then-out">
+                        <div class="metric">
+                            <div class="metric-value positive">+23%</div>
+                            <div class="metric-label">YoY Growth</div>
+                        </div>
+                    </div>
+                    <div class="fragment fade-in">
+                        <div class="metric">
+                            <div class="metric-value">$1.8B</div>
+                            <div class="metric-label">Q4 Revenue</div>
+                        </div>
+                    </div>
+                </div>
+                <aside class="notes">
+                    Walk through each metric one by one.
+                    Highlight the significant year-over-year growth.
+                    The Q4 revenue represents our strongest single quarter.
+                </aside>
+            </section>
+
+            <!-- More Fragments Example -->
+            <section>
+                <h2>Strategic Achievements</h2>
+                <ul>
+                    <li class="fragment fade-up">Launched 3 new product lines</li>
+                    <li class="fragment fade-up">Expanded to 12 new markets</li>
+                    <li class="fragment fade-up">Reduced operational costs by 15%</li>
+                    <li class="fragment fade-up">Achieved carbon neutrality</li>
+                </ul>
+                <aside class="notes">
+                    Build up the achievements one by one for dramatic effect.
+                    Each point represents a major milestone this quarter.
+                </aside>
+            </section>
+
+            <!-- Code Sample Slide -->
+            <section>
+                <h2>Financial Analysis Code</h2>
+                <pre><code class="language-python" data-trim data-line-numbers>
+import pandas as pd
+import numpy as np
+
+def calculate_roi(initial_investment, final_value):
+    """Calculate Return on Investment"""
+    roi = ((final_value - initial_investment) / initial_investment) * 100
+    return roi
+
+def compound_annual_growth_rate(start_value, end_value, years):
+    """Calculate CAGR for investment analysis"""
+    cagr = (pow(end_value / start_value, 1 / years) - 1) * 100
+    return cagr
+
+# Q4 2024 Analysis
+revenue_data = pd.DataFrame({
+    'quarter': ['Q1', 'Q2', 'Q3', 'Q4'],
+    'revenue': [1.2, 1.4, 1.6, 1.8]  # in billions
+})
+
+print(f"CAGR: {compound_annual_growth_rate(1.2, 1.8, 1):.2f}%")
+                </code></pre>
+                <aside class="notes">
+                    This code demonstrates our analytical approach.
+                    We use Python for financial calculations and data analysis.
+                    The ROI and CAGR functions are core to our reporting methodology.
+                </aside>
+            </section>
+
+            <!-- Mathematical Equations Slide -->
+            <section>
+                <h2>Financial Formulas</h2>
+                <div class="highlight-box">
+                    <p><strong>Compound Interest:</strong></p>
+                    <p>\[ A = P \left(1 + \frac{r}{n}\right)^{nt} \]</p>
+                    
+                    <p class="fragment"><strong>Return on Investment (ROI):</strong></p>
+                    <p class="fragment">\[ ROI = \frac{(Final Value - Initial Investment)}{Initial Investment} \times 100\% \]</p>
+                    
+                    <p class="fragment"><strong>Compound Annual Growth Rate (CAGR):</strong></p>
+                    <p class="fragment">\[ CAGR = \left(\frac{V_{final}}{V_{initial}}\right)^{\frac{1}{n}} - 1 \]</p>
+                </div>
+                <aside class="notes">
+                    These are the key financial formulas used in our analysis.
+                    A = final amount, P = principal, r = rate, n = compounding frequency, t = time.
+                    Explain each formula as it appears with the fragments.
+                </aside>
+            </section>
+
+            <!-- Additional Math Slide -->
+            <section>
+                <h2>Q4 Valuation Metrics</h2>
+                <div class="highlight-box">
+                    <p><strong>Price-to-Earnings Ratio:</strong></p>
+                    <p>\[ P/E = \frac{Market\ Price\ per\ Share}{Earnings\ per\ Share} = \frac{\$142.50}{\$8.25} = 17.27 \]</p>
+                    
+                    <p class="fragment"><strong>Dividend Yield:</strong></p>
+                    <p class="fragment">\[ Yield = \frac{Annual\ Dividends}{Stock\ Price} = \frac{\$3.20}{\$142.50} = 2.25\% \]</p>
+                </div>
+                <aside class="notes">
+                    Our P/E ratio of 17.27 indicates healthy valuation.
+                    The dividend yield of 2.25% reflects our commitment to shareholder returns.
+                </aside>
+            </section>
+
+            <!-- Closing Slide -->
+            <section>
+                <h2>Looking Ahead: 2025</h2>
+                <ul>
+                    <li class="fragment">Target revenue: <strong class="positive">$5.5B</strong></li>
+                    <li class="fragment">Planned expansion: <strong>8 new markets</strong></li>
+                    <li class="fragment">R&D investment: <strong>$800M</strong></li>
+                    <li class="fragment">Dividend increase: <strong class="positive">+12%</strong></li>
+                </ul>
+                <p class="fragment" style="margin-top: 1.5em;">
+                    <em>Thank you for your continued support</em>
+                </p>
+                <p class="email">Contact: 22f3000804@ds.study.iitm.ac.in</p>
+                <aside class="notes">
+                    Conclude with our ambitious but achievable 2025 targets.
+                    Open the floor for questions after revealing the thank you message.
+                    Remind attendees of the contact email for follow-up inquiries.
+                </aside>
+            </section>
+        </div>
+    </div>
+
+    <!-- Reveal.js and plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/math/math.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/notes/notes.min.js"></script>
+    
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: true,
+            transition: 'slide',
+            plugins: [
+                RevealMarkdown,
+                RevealHighlight,
+                RevealMath.MathJax3,
+                RevealNotes
+            ],
+            math: {
+                mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+                config: 'TeX-AMS_HTML-full'
+            }
+        });
+    </script>
+</body>
+</html>

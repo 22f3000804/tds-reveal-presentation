@@ -39,6 +39,8 @@ style: |
   }
 math: mathjax
 ---
+<!-- _class: lead -->
+<!-- _color: #eaeaea -->
 
 # Product Documentation
 
@@ -46,7 +48,7 @@ math: mathjax
 
 **Version 2.0**
 
-<div class="author">22f3000804@ds.study.iitm.ac.in</div>
+**22f3000804@ds.study.iitm.ac.in**
 
 ---
 
@@ -59,6 +61,9 @@ math: mathjax
 5. **Examples** - Code samples
 
 ---
+
+<!-- _class: lead -->
+<!-- _backgroundColor: #0a0a1a -->
 
 ![bg](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920)
 
